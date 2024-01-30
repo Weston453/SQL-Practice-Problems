@@ -4,4 +4,5 @@ select *
     or quality1 = 'cunning' and quality2 = 'evil'
     or quality1 = 'brave' and quality2 != 'evil'
     or quality1 = 'studious' or quality2 = 'intelligent'
-    or quality1 = 'hufflepuff' or quality2 = 'hufflepuff';
+    or quality1 = 'hufflepuff' or quality2 = 'hufflepuff'
+  order by id;
