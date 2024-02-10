@@ -1,2 +1,2 @@
 select * from students
-  where tuition_received = false;
+  where not tuition_received;
